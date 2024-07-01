@@ -1,0 +1,127 @@
+
+   .testimonials {
+    background-color: #9dc5e0;
+    margin-bottom: 70px;
+    padding: 20px 20px 50px;
+    margin-top: 60px;
+    border-radius: 15px;
+  }
+  
+  .testimonials h2 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #333;
+    padding-left: 20px;
+  }
+  
+  .testimonials-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    width: 400px;
+    position: relative;
+    text-align: left;
+    margin: 10px;
+  }
+  
+  .testimonial-quote {
+    font-size: 4em;
+    color: #c16226;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+  }
+  
+  .testimonial-quote-right {
+    font-size: 4em;
+    color: #c16226;
+    position: absolute;
+    bottom: -40px;
+    right: 10px;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .testimonial-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .testimonial-content p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .testimonials h2 {
+      text-align: center;
+      font-size: 1.8em;
+    }
+    
+    .testimonial {
+      padding: 15px;
+      margin: 10px 0;
+    }
+  
+    .testimonial-quote,
+    .testimonial-quote-right {
+      font-size: 3em;
+    }
+  
+    .testimonial-content h3 {
+      font-size: 1em;
+    }
+  
+    .testimonial-content p {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonials h2 {
+      font-size: 1.5em;
+    }
+    
+    .testimonial {
+      padding: 10px;
+    }
+  
+    .testimonial-quote,
+    .testimonial-quote-right {
+      font-size: 2.5em;
+    }
+  
+    .testimonial-content h3 {
+      font-size: 0.9em;
+    }
+  
+    .testimonial-content p {
+      font-size: 0.7em;
+    }
+  }
+  

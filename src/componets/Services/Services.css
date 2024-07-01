@@ -1,0 +1,59 @@
+.services {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  flex: 1 1 30%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 1200px) {
+  .services {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service {
+    flex: 1 1 100%;
+  }
+}
